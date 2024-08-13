@@ -1,0 +1,37 @@
+.todoform {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px grey;
+}
+
+.modernInput {
+  display: block;
+  width: 300px;
+  border: grey;
+  margin: 10px 0px 10px 5px;
+  padding: 5px;
+}
+
+.modernInput:focus {
+  outline: none;
+}
+
+.modernButton {
+  align-self: flex-end;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgb(21, 126, 219);
+  box-shadow: 0 2px 2px grey;
+  float: right;
+  margin: 10px 5px 10px 0px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+}
